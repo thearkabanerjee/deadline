@@ -1,0 +1,28 @@
+{
+  "name": "deadline",
+  "version": "1.0.0",
+  "description": "A cinematic terminal countdown tool",
+  "main": "src/index.js",
+  "bin": {
+    "deadline": "./bin/deadline"
+  },
+  "type": "module",
+  "keywords": [
+    "cli",
+    "terminal",
+    "productivity",
+    "countdown",
+    "week",
+    "time"
+  ],
+  "author": "Arka Banerjee",
+  "license": "MIT",
+  "dependencies": {
+    "boxen": "^8.0.1",
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "dayjs": "^1.11.13",
+    "figlet": "^1.8.0",
+    "gradient-string": "^3.0.0"
+  }
+}
